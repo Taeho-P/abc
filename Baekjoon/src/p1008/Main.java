@@ -1,4 +1,4 @@
-package p1001;
+package p1008;
 
 import java.util.Scanner;
 
@@ -10,9 +10,8 @@ public class Main {
 		int iA = sc.nextInt();
 		int iB = sc.nextInt();
 		
-		sc.close();
-		
-		System.out.println(iA - iB);
+		System.out.print((double)iA / (double)iB);
+
 	}
 
 }

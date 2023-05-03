@@ -1,4 +1,4 @@
-package p10998;
+package p10430;
 
 import java.util.Scanner;
 
@@ -9,8 +9,10 @@ public class Main {
 		
 		int iA = sc.nextInt();
 		int iB = sc.nextInt();
+		int iC = sc.nextInt();
 		
-		System.out.println(iA * iB);
+		System.out.println((iA+iB)%iC);
+		System.out.println
 
 	}
 

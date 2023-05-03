@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author goekd
+ *
+ */
+module Baekjoon {
+}
