@@ -1,4 +1,4 @@
-package p1008;
+package p11382;
 
 import java.util.Scanner;
 
@@ -6,14 +6,15 @@ public class Main {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-
-		int iA = sc.nextInt();
-		int iB = sc.nextInt();
-
+		
+		long iA = sc.nextLong();
+		long iB = sc.nextLong();
+		long iC = sc.nextLong();
+		
 		sc.close();
-
-		System.out.print((double) iA / (double) iB);
-
+		
+		System.out.println(iA + iB + iC);
+		
 	}
 
 }
